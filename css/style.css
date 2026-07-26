@@ -6,11 +6,44 @@
 
 body{
     background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
 }
 .container{
-    width: 1000px;
-    border: 1px solid #333;
+    width: 700px;
     margin: 10px auto;
     padding: 50px;
+    text-align: center;
+}
+
+h1,
+img{
+    margin-bottom: 30px;   
+}
+
+h1{
+    font-size: 62px;
+}
+
+img{
+    box-shadow: 0 0 10px #e2e2e2;
+    border-radius: 50%;
+}
+li {
+    list-style-type: none;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    border: 1px solid #cacaca;
+    margin-bottom: 10px;
+    padding: 20px;
     border-radius: 10px;
+}
+
+li a:hover{
+    background-color: #b6b6b6;
+    color: white;
 }
