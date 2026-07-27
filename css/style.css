@@ -43,9 +43,11 @@ li a{
     border-radius: 10px;
 }
 
-li a:hover{
+li a:hover,
+.container.page .home-button:hover{
     background-color: #b6b6b6;
     color: white;
+    outline: none;
 }
 
 /* PAGE CONTAINER */
@@ -56,6 +58,16 @@ li a:hover{
     border-radius: 20px;
     line-height: 2;
 
+}
+.container.page .home-button{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    outline: 1px solid #333;
+    padding: 5px 30px;
+    border-radius: 30px;
 }
 .container.page img{
     border-radius: 20px;
