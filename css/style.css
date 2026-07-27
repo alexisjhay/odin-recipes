@@ -15,8 +15,8 @@ body{
     text-align: center;
 }
 
-h1,
-img{
+.home h1,
+.home img{
     margin-bottom: 30px;   
 }
 
@@ -24,12 +24,12 @@ h1{
     font-size: 62px;
 }
 
-img{
+.home img{
     box-shadow: 0 0 10px #e2e2e2;
     border-radius: 50%;
 }
-li {
-    list-style-type: none;
+.home li{
+    list-style: none;
 }
 
 li a{
@@ -46,4 +46,33 @@ li a{
 li a:hover{
     background-color: #b6b6b6;
     color: white;
+}
+
+/* PAGE CONTAINER */
+
+.container.page{
+    width: 1000px;
+    border: 1px solid #c0c0c0;
+    border-radius: 20px;
+    line-height: 2;
+
+}
+.container.page img{
+    border-radius: 20px;
+}
+
+.container.page h2{
+    margin: 25px 0;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.container.page h2,
+.container.page p,
+.container.page li{
+    text-align: left;
+}
+
+.container.page li{
+    margin-left: 30px;
 }
